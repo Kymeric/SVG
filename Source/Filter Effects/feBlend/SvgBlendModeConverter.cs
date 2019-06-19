@@ -8,7 +8,7 @@ namespace Svg.FilterEffects
     public sealed class SvgBlendModeConverter : EnumBaseConverter<SvgBlendMode>
     {
         public SvgBlendModeConverter()
-            : base(SvgBlendMode.Normal, EnumBaseConverter<SvgBlendMode>.CaseHandling.CamelCase)
+            : base(SvgBlendMode.Normal, EnumBaseConverter<SvgBlendMode>.CaseHandling.DashedLowerCase)
         {
         }
     }
